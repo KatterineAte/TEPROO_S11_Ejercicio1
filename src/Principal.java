@@ -51,22 +51,24 @@ public class Principal {
 		sueldoNeto = sueldoBruto - descuento;
 		
 		//Generar el lanzamiento del dado
+		//Aqui se cambio los obsequios
+		
 		// min + (int) (Math.random() * (max - min) + 1)
 		dado = 1 + (int) (Math.random() * (6-1) + 1);
 		
 		switch(dado) {
 		case 1:
-			obsequio = "Vale por S/. 50"; break;
+			obsequio = "Vale por S/. 20"; break;
 		case 2:
-			obsequio = "Vale por S/. 75"; break;
+			obsequio = "Vale por S/. 30"; break;
 		case 3:
-			obsequio = "Vale por S/. 100"; break;
+			obsequio = "Vale por S/. 40"; break;
 		case 4:
-			obsequio = "Vale por S/. 125"; break;
+			obsequio = "Vale por S/. 50"; break;
 		case 5:
-			obsequio = "Vale por S/. 150"; break;
+			obsequio = "Vale por S/. 60"; break;
 		default:
-			obsequio = "Vale por S/. 200";
+			obsequio = "Vale por S/. 70";
 		}
 		
 		//Salida de resultados
